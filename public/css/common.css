@@ -1,0 +1,54 @@
+/* 空元素显示的内容 */
+.empty-content:empty::before {
+  /* content: attr(placeholder); */
+  content: '记笔记...';
+  font-size: 14px;
+  color: #666;
+  line-height: 21px;
+}
+
+/* 常用flex布局 */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+/* ellips */
+.hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
